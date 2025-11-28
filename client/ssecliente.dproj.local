@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/27 17:31:03.000.727,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2024/12/04 16:01:55.000.236,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2024/12/05 17:13:01.000.036,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2024/12/05 17:13:26.000.449,=D:\DelphiWorkSpace\Unit2.pas</Transaction>
+    <Transaction>2025/02/07 08:16:51.000.762,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2025/02/27 11:40:50.000.184,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2025/03/06 17:55:33.000.778,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2025/08/29 11:28:31.000.150,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2025/10/31 16:13:56.000.144,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2025/11/10 14:13:57.000.473,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2025/11/10 14:22:07.000.398,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2025/11/28 16:13:27.000.501,D:\DelphiWorkSpace\ssecliente.dproj=D:\DelphiWorkSpace\Project1.dproj</Transaction>
+    <Transaction>2025/11/28 16:15:49.000.280,D:\AppDemos\Delphi\sse-client\ssecliente.dproj=D:\DelphiWorkSpace\ssecliente.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="VB03209702758" Android="VB03209702758"/>
+	</ActiveMobileDevice>
+</BorlandProject>
