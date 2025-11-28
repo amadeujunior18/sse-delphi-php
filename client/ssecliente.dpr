@@ -82,7 +82,7 @@ begin
     Client := TIndySSEClient.Create;
     try
       // Conectar ao servidor SSE (funciona com HTTP e HTTPS)
-      Client.Connect('https://sse.zambeta.site/sse.php');
+      Client.Connect('http://localhost/sse.php');
 
       WriteLn('Pressione ENTER para sair');
       ReadLn;

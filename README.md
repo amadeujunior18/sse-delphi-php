@@ -48,11 +48,9 @@ Para executar o servidor, você precisará de um ambiente com PHP (como XAMPP, W
 
 ### 2. Cliente
 
-O cliente é uma aplicação de console e já está compilado.
+O cliente é uma aplicação de console.
 
 1.  Navegue até a pasta `client/`.
-2.  Execute o arquivo `ssecliente.exe`.
-3.  O console começará a exibir a hora recebida do servidor público `https://sse.zambeta.site/sse.php`.
 
 **Nota**: Para compilar o projeto Delphi (`ssecliente.dpr`), você precisará do Delphi com a biblioteca **Indy** (Internet Direct) instalada.
 
@@ -66,5 +64,5 @@ O cliente é uma aplicação de console e já está compilado.
 ## Pontos de Melhoria
 
 1.  **Segurança do Cliente**: A verificação do certificado SSL está desativada no cliente Delphi por simplicidade. Em um ambiente de produção, isso é inseguro e deve ser corrigido para validar o certificado do servidor.
-2.  **Configuração da URL**: A URL do servidor (`https://sse.zambeta.site/sse.php`) está fixa no código do cliente. O ideal seria movê-la para um arquivo de configuração externo.
+2.  **Configuração da URL**: A URL do servidor (`http://localhost/sse.php`) está fixa no código do cliente. O ideal seria movê-la para um arquivo de configuração externo.
 3.  **Tratamento de Erros**: O tratamento de erros poderia ser mais robusto para lidar com falhas de conexão ou desconexões inesperadas.

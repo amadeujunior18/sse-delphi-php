@@ -48,7 +48,7 @@ sse-client/
             -   Usa `TIdSSLIOHandlerSocketOpenSSL` para suportar conexões HTTPS, configurado para TLS 1.2. A verificação do certificado está desabilitada (`VerifyMode := []`), o que é uma prática insegura para produção.
             -   O método `Connect` utiliza `IdHTTP.Get` com um `TIdEventStream` para processar o fluxo de eventos.
             -   O evento `OnWrite` do `TIdEventStream` é usado para processar e exibir os dados recebidos do servidor.
-        -   O programa principal cria uma instância de `TIndySSEClient`, conecta-se à URL `https://sse.zambeta.site/sse.php` e aguarda a entrada do usuário para encerrar.
+        -   O programa principal cria uma instância de `TIndySSEClient`, conecta-se à URL `http://localhost/sse.php` e aguarda a entrada do usuário para encerrar.
     -   **Dependências**:
         -   **Indy**: Biblioteca de componentes de rede para Delphi.
         -   **OpenSSL**: As DLLs `libeay32.dll` e `ssleay32.dll` são necessárias para o suporte a SSL/TLS.
